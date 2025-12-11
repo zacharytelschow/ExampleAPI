@@ -1,0 +1,46 @@
+## Ignore Visual Studio Code settings (optional but common)
+.vscode/
+
+## Ignore build outputs
+bin/
+obj/
+
+## Ignore Rider / VS / tooling dirs
+.idea/
+*.user
+*.suo
+
+## Ignore publish outputs
+app/
+out/
+
+## Ignore logs
+*.log
+
+## Ignore environment files
+*.env
+*.env.*
+
+## Ignore temporary files
+*.tmp
+*.temp
+
+## Ignore lock files
+project.nuget.cache
+
+## Ignore the http scratch file created by VS Code
+*.http
+
+## Ignore system files
+.DS_Store
+Thumbs.db
+
+## Ignore NuGet packages (if you ever pack locally)
+*.nupkg
+*.snupkg
+
+## ASP.NET data protection keys
+**/App_Data/
+
+## Optional: ignore the docker build context outputs
+docker-compose.override.yml
